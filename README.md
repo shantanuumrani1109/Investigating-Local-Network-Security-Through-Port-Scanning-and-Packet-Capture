@@ -26,3 +26,25 @@ This subnet mask indicates a **/24 network**, meaning the scan range is:
 ```
 
 ---
+
+## 📌 2. Discover Live Hosts (Ping/ARP Scan)
+
+Before scanning ports, I first identified which devices are active on the network using:
+
+```
+nmap -sn 192.168.1.0/24
+```
+
+### ✔ What the `-sn` Scan Does:
+- Performs host discovery only
+- Sends **ARP requests** on local networks
+- Identifies all devices that respond
+- Does not perform any port scanning
+
+In Wireshark, this corresponds to ARP traffic such as:
+- “Who has 192.168.1.X?”
+- Devices replying with their MAC addresses (redacted)
+
+This phase verifies which IPs are active on the network before proceeding with the TCP SYN port scan.
+
+---
