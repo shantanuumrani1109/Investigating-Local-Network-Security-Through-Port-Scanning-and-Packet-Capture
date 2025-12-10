@@ -1,2 +1,4 @@
-# Investigating-Local-Network-Security-Through-Port-Scanning-and-Packet-Capture
-This project evaluates local network security using port scanning and packet capture to identify open ports, active services, and vulnerabilities. With Nmap, Wireshark, and TCPDump, it analyzes traffic, detects suspicious activity, and demonstrates best practices for stronger network defense.
+# Investigating Local Network Security Through Port Scanning and Packet Capture
+
+**Description:**
+This project evaluates local network security using Nmap and Wireshark by identifying open ports, services, and vulnerabilities. It performs device discovery, TCP SYN scans, and analyzes ARP/SYN packets to detect risks, map services, study traffic, and strengthen network defenses.
