@@ -12,7 +12,7 @@ All IP addresses are sanitized (last octet masked) and all MAC addresses removed
 Using the command:
 
 ```
-ipconfig
+ifconfig
 ```
 
 I identified:
